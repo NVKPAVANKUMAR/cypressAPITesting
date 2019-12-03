@@ -7,7 +7,7 @@ describe('todos API', () => {
    * @property {string} task
    */
 
-   /** @type {Todo[]} */
+  /** @type {Todo[]} */
   const initialItems = [
     {
       "id": 1,
@@ -69,7 +69,7 @@ describe('todos API', () => {
 
   it('adds an item', () => {
     const randomId = Cypress._.random(0, 10000)
-    const item = {id:randomId, task:'life'}
+    const item = { id: randomId, task: 'life' }
 
     add(item)
     cy.request(`/todos/${randomId}`)

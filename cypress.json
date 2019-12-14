@@ -1,5 +1,8 @@
 {
   "baseUrl": "http://localhost:3000",
+  "rmBaseUrl": "https://reqres.in/",
+  "baseURL": "https://pokeapi.co/api/v2/pokemon",
+  "restapiUrl":"http://dummy.restapiexample.com/",
   "projectId": "yxs5on",
   "video": false
 }
